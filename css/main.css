@@ -70,11 +70,11 @@ p {
 
 .email{
     outline: none;
-    border: 1px solid #e2e2e2;
-    width: 300px;
-    padding: 7px 13px;
-    font-size: 14px;
-    border-radius: 2px;
+    border: 1px solid #e2e2e2 !important;
+    width: 300px !important;
+    padding: 7px 13px !important;
+    font-size: 14px !important;
+    border-radius: 2px !important;
 }
 .container {
   height: 100%; }
@@ -199,6 +199,10 @@ p {
   .connect-page-info a {
     color: #666; }
 
+.phone{
+  margin-top: 10px !important; 
+  font-size: 15px;
+}
 /*----media queries-----*/
 
 /*# sourceMappingURL=main.css.map */
