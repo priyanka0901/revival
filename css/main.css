@@ -80,7 +80,7 @@ p {
   height: 100%; }
 
 .join-button{
-  background: #7EB1B7;
+  background: #7EB1B7 !important;
     width: 100px;
     border: none;
     outline: none;
@@ -88,7 +88,7 @@ p {
     font-size: 16px;
     font-weight: 500;
     padding: 7px;
-    border-radius: 2px;
+    border-radius: 2px !important;
     margin-top: -30px;
 }
 /*------landing page ---------*/
@@ -201,8 +201,10 @@ p {
     color: #666; }
 
 .phone{
-  margin-top: 10px !important; 
-  font-size: 15px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #ccc;
+}
 }
 /*----media queries-----*/
 

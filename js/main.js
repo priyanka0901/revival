@@ -50,12 +50,13 @@ $(document).ready(function() {
             e.preventDefault();
         });
 
-        $(".connect").on("click", function(e) {
+        $(".connect, .join-button").on("click", function(e) {
             $("body, html").animate({
                 scrollTop: $("#js-connect-page").offset().top
             }, 600);
             e.preventDefault();
         });
+
     }); 
 
 
