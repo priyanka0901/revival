@@ -205,6 +205,9 @@ p {
     font-weight: 700;
     color: #ccc;
 }
+#mce-success-response{
+  color:#ccc !important;
+  font-size: 14px;
 }
 /*----media queries-----*/
 
